@@ -1,0 +1,36 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Dabbing API",
+    "version": "1.0.0",
+    "description": "API to retrieve banger details by style."
+  },
+  "servers": [
+    {
+      "url": "https://dabbing.onrender.com"
+    }
+  ],
+  "paths": {
+    "/banger/{style}": {
+      "get": {
+        "summary": "Get banger details by style",
+        "parameters": [
+          {
+            "name": "style",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Banger style to fetch"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A list of bangers matching the style"
+          }
+        }
+      }
+    }
+  }
+}
