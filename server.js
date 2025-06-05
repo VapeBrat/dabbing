@@ -9,8 +9,11 @@ app.get('/bangers', (req, res) => {
 });
 
 app.get('/banger/:style', (req, res) => {
-  const style = req.params.style.toLowerCase().trim();
-  const results = bangers.filter(b => b.style.toLowerCase().includes(style));
+  const input = req.params.style.toLowerCase().trim();
+  const results = bangers.filter(b => 
+    b.style.toLowerCase().includes(input) || 
+    b.name.toLowerCase().includes(input)
+  );
   res.json(results.length > 0 ? results : { error: 'No matching banger style found' });
 });
 
