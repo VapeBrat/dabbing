@@ -1,20 +1,197 @@
-[
-  {
-    "id": 112,
-    "name": "10mm Male Quartz Banger 45 Degree",
-    "style": "Angled",
-    "jointSize": "10mm",
-    "angle": "45",
-    "price": 9.99,
-    "url": "https://quartzbanger.com/10mm-male-quartz-banger-45-degree-angle/"
-  },
-  {
-    "id": 113,
-    "name": "Terp Slurper Quartz Banger Nail: 10mm Male 90 Degree Flat Top",
-    "style": "Terp Slurper",
-    "jointSize": "10mm",
-    "angle": "90",
-    "price": 14.99,
-    "url": "https://quartzbanger.com/terp-slurper-quartz-banger-nail-10mm-male-90-degree-flat-top/"
-  }
-]
+Certainly! Here's the structured data formatted for a `.json` file that you can upload to your GitHub account:
+
+```json
+{
+  "products": [
+    {
+      "id": 112,
+      "name": "14mm Male 90 Degree Terp Slurper Banger",
+      "style": "Terp Slurper",
+      "jointSize": "14mm",
+      "angle": "90°",
+      "price": 14.99,
+      "url": "https://quartzbanger.com/14mm-90-degree-male-terp-slurper-banger/"
+    },
+    {
+      "id": 113,
+      "name": "14mm Female 90 Degree Terp Slurper Banger",
+      "style": "Terp Slurper",
+      "jointSize": "14mm",
+      "angle": "90°",
+      "price": 14.99,
+      "url": "https://quartzbanger.com/14mm-90-degree-female-terp-slurper-banger/"
+    },
+    {
+      "id": 114,
+      "name": "Vortex Banger Quartz Dab Nail",
+      "style": "Vortex",
+      "jointSize": "Varies",
+      "angle": "Varies",
+      "price": 19.99,
+      "url": "https://quartzbanger.com/vortex-banger-quartz-dab-nail/"
+    },
+    {
+      "id": 115,
+      "name": "Beveled Top Quartz Banger",
+      "style": "Beveled",
+      "jointSize": "Varies",
+      "angle": "Varies",
+      "price": 14.99,
+      "url": "https://quartzbanger.com/beveled-top-quartz-banger/"
+    },
+    {
+      "id": 116,
+      "name": "Cadmium Core Quartz Banger",
+      "style": "Cadmium Core",
+      "jointSize": "Varies",
+      "angle": "Varies",
+      "price": 24.99,
+      "url": "https://quartzbanger.com/cadmium-core-quartz-banger/"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Quartz Bangers",
+      "subcategories": [
+        "Angled Bangers",
+        "Bell-Bottom Bangers",
+        "Beveled Bangers",
+        "Blender Bangers",
+        "Bucket Banger",
+        "Cadmium Core Bangers",
+        "Center Core Bangers",
+        "Control Tower Banger",
+        "Deep Dish Bangers",
+        "Enail Bangers",
+        "Finger Banger",
+        "Fully Welded Quartz Bangers",
+        "Made in USA Quartz Bangers",
+        "Nectar Collector Bangers",
+        "Opaque Bottom Bangers",
+        "Recycler Banger",
+        "Round Bottom Bangers",
+        "Splashguard Bangers",
+        "Standard Quartz Banger",
+        "Terp Slurper Bangers",
+        "Thermal Bangers",
+        "Thermochromic Bangers",
+        "Thick Bottom Bangers",
+        "Titanium Banger",
+        "Vortex Bangers",
+        "2-in-1 Quartz Banger",
+        "Dab Rig Nectar Collector Nail"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Banger Accessories",
+      "subcategories": [
+        "Banger Inserts",
+        "Banger Stands",
+        "Banger Storage Containers",
+        "Banger Trays",
+        "E-nail Banger Coil Holders",
+        "Terp Pearls",
+        "Terp Pillars",
+        "Terp Pills",
+        "Terp Spinner Wheel",
+        "Carb Caps",
+        "Angled Carb Cap",
+        "Bubble Carb Caps",
+        "Bullet Carb Caps",
+        "Carb Cap Dab Tool 2 in 1",
+        "Carb Cap Dab Thermometer",
+        "Electric Dab Rig Carb Cap",
+        "Directional Carb Caps",
+        "Dome Style Carb Caps",
+        "Flat Top Carb Caps",
+        "Marble Carb Caps",
+        "Marble Spinner Carb Cap",
+        "Opal Carp Caps",
+        "Terp Slurper Chain",
+        "Terp Slurper Marble Set",
+        "Terp Slurper Screw Set",
+        "Titanium Carb Caps",
+        "UFO Carb Caps",
+        "Vortex Spinner Carb Caps",
+        "Carb Cap Sizes",
+        "20MM CARB CAPS",
+        "25MM CARB CAPS",
+        "30MM CARB CAPS",
+        "35MM CARB CAPS"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dab Tools",
+      "subcategories": [
+        "Ceramic Dab Tools",
+        "Glass Dab Tools",
+        "Hot Knife Dabs",
+        "Titanium Dab Tools"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dab Rigs",
+      "subcategories": [
+        "Dab Rig Kits",
+        "Glass Dab Rigs",
+        "Recycler Dab Rigs & Bongs",
+        "Micro Dab Rigs",
+        "Mini Dab Rigs",
+        "Incycler Dab Rigs",
+        "Portable Dab Rig",
+        "Silicone Glass Rig",
+        "Silicone Dab Rigs",
+        "Dab Rigs Under $100",
+        "Dab Rigs Under $50"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Freezable Glycerin",
+      "subcategories": [
+        "Frozen Nectar Collector",
+        "Frozen Bong & Dab Rigs"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Nectar Collectors",
+      "subcategories": [
+        "10mm Nectar Collectors",
+        "14mm Nectar Collectors",
+        "Dab Straw",
+        "Freezable Nectar Collector",
+        "Reclaim Nectar Collectors",
+        "Screw-on Nectar Collectors",
+        "Silicone Nectar Collector",
+        "Nectar Collector Glass Bubbler",
+        "Nectar Collector Keck Clips"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "E-nails",
+      "subcategories": [
+        "Quartz Banger Enail Kit",
+        "20mm Enail Kits",
+        "25mm Enail Kits",
+        "30mm Enail Kits",
+        "35mm Enail Kits",
+        "Enail Dab Rig Kit",
+        "Titanium Enail Kit",
+        "Enail Nectar Collector",
+        "E-nail Coil Kits",
+        "Enail Accessories",
+        "Enail Coil Stands",
+        "Enail Coils"
+      ]
+    }
+  ]
+}
+```
+
+This `.json` file format contains product data with their details, along with categories and subcategories that should help organize the information for your ChatGBT setup.
