@@ -1,5 +1,5 @@
 {
-  "openapi": "3.0.0",
+  "openapi": "3.1.0",
   "info": {
     "title": "Dabbing API",
     "version": "1.0.0",
@@ -13,6 +13,7 @@
   "paths": {
     "/banger/{style}": {
       "get": {
+        "operationId": "get_banger_details",
         "summary": "Get banger details by style",
         "parameters": [
           {
