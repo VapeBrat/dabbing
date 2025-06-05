@@ -1,6 +1,3 @@
-Certainly! Here's the structured data formatted for a `.json` file that you can upload to your GitHub account:
-
-```json
 {
   "products": [
     {
@@ -192,6 +189,3 @@ Certainly! Here's the structured data formatted for a `.json` file that you can 
     }
   ]
 }
-```
-
-This `.json` file format contains product data with their details, along with categories and subcategories that should help organize the information for your ChatGBT setup.
