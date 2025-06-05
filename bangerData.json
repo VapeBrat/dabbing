@@ -187,5 +187,99 @@
         "Enail Coils"
       ]
     }
-  ]
+ Here’s the full set of additional 30mm bucket bangers formatted for your `bangerData.json`:
+
+```json
+[
+  {
+    "id": 301,
+    "name": "30mm Quartz Banger: 14mm Male 90 Degree - Bucket Banger Full Weld",
+    "style": "Beveled Top",
+    "jointSize": "14mm",
+    "angle": "90",
+    "price": 35.99,
+    "url": "https://e-nail.com/30mm-quartz-banger-14mm-male-90-degree-bucket-banger-full-weld/"
+  },
+  {
+    "id": 302,
+    "name": "30mm Quartz Banger: 10mm Male 90 Degree - Regular Weld",
+    "style": "Flat Top",
+    "jointSize": "10mm",
+    "angle": "90",
+    "price": 29.99,
+    "url": "https://e-nail.com/30mm-quartz-banger-10mm-male-90-degree-regular-weld/"
+  },
+  {
+    "id": 303,
+    "name": "30mm Enail Banger: 14mm Male 90 Degree - Regular Weld",
+    "style": "Enail",
+    "jointSize": "14mm",
+    "angle": "90",
+    "price": 29.99,
+    "url": "https://quartzbanger.com/30mm-enail-banger-14mm-male-90-degree-regular-weld/"
+  },
+  {
+    "id": 304,
+    "name": "30mm Round Bottom Banger Full Weld: 14mm Male 90 Degree",
+    "style": "Round Bottom",
+    "jointSize": "14mm",
+    "angle": "90",
+    "price": 29.99,
+    "url": "https://quartzbanger.com/30mm-round-bottom-banger-full-weld-14mm-male-90-degree/"
+  },
+  {
+    "id": 305,
+    "name": "14mm 90 Degree Male Quartz Banger Kit 30mm Bucket (3 Piece Kit)",
+    "style": "Flat Top",
+    "jointSize": "14mm",
+    "angle": "90",
+    "price": 19.99,
+    "url": "https://quartzbanger.com/14mm-90-degree-male-quartz-banger-kit-30mm-bucket-3-piece-kit/"
+  },
+  {
+    "id": 306,
+    "name": "Auto Spinner Enail Banger: 30mm Bucket 10mm Male 90 Degree Full Weld",
+    "style": "Auto Spinner",
+    "jointSize": "10mm",
+    "angle": "90",
+    "price": 29.99,
+    "url": "https://quartzbanger.com/auto-spinner-enail-banger-30mm-bucket-10mm-male-90-degree-full-weld/"
+  },
+  {
+    "id": 307,
+    "name": "30mm Deep Dish Enail Quartz Bucket Banger: 14mm Male 90 Degree Full Weld",
+    "style": "Deep Dish",
+    "jointSize": "14mm",
+    "angle": "90",
+    "price": 34.99,
+    "url": "https://quartzbanger.com/30mm-deep-dish-enail-quartz-bucket-banger-14mm-male-90-degree-full-weld/"
+  },
+  {
+    "id": 308,
+    "name": "Bucket Enail Banger Fully Welded 14mm Male 90 Degree Angle 30mm Dia",
+    "style": "Enail",
+    "jointSize": "14mm",
+    "angle": "90",
+    "price": 34.99,
+    "url": "https://quartzbanger.com/bucket-enail-banger-fully-welded-14mm-male-90-degree-angle-30mm-dia/"
+  },
+  {
+    "id": 309,
+    "name": "Terp Slurper Enail Banger Fully Welded 14mm Male 90 Degree Angle 30mm Dia Bottom",
+    "style": "Terp Slurper",
+    "jointSize": "14mm",
+    "angle": "90",
+    "price": 34.99,
+    "url": "https://quartzbanger.com/terp-slurper-enail-banger-fully-welded-14mm-male-90-degree-angle-30mm-dia-bottom/"
+  },
+  {
+    "id": 310,
+    "name": "VapeBrat Bucket Enail Banger Full Weld: 14mm Male 90 Degree 30mm Diameter",
+    "style": "Enail",
+    "jointSize": "14mm",
+    "angle": "90",
+    "price": 29.99,
+    "url": "https://quartzbanger.com/vapebrat-bucket-enail-banger-full-weld-14mm-male-90-degree-30mm-diameter/"
+  }
+]
 }
