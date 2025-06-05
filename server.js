@@ -16,7 +16,12 @@ app.get('/banger/:style', (req, res) => {
 app.get('/', (req, res) => {
   res.send('Dabbing API is live');
 });
-
+const fs = require('fs');
+app.get('/openapi.json', (req, res) => {
+  const spec = fs.readFileSync('./openapi.json', 'utf8');
+  res.setHeader('Content-Type', 'application/json');
+  res.send(spec);
+});
 app.listen(PORT, () => {
   console.log(`Banger API listening at http://localhost:${PORT}`);
 });
